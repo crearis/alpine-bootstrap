@@ -5,10 +5,8 @@
 
 <template>
   <div>
-    <h1>Bootstrap Test page</h1>
     <CAlert color="primary">
-      A simple primary alert—check it out!
+      <ContentSlot :use="$slots.default" unwrap="p" />
     </CAlert>
   </div>
 </template>
-
