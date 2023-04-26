@@ -9,7 +9,9 @@
     "preview": "nuxi preview"
   },
   "devDependencies": {
+    "@nuxt-themes/alpine": "^1.5.0",
     "nuxt": "3.3.3",
-    "@nuxt-themes/alpine": "^1.5.0"
+    "@coreui/coreui": "^4.2.6",
+    "@coreui/vue": "^4.8.1"
   }
 }
